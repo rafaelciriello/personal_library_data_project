@@ -7,19 +7,15 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
--- -----------------------------------------------------
--- Schema mylibrary
--- -----------------------------------------------------
-
--- -----------------------------------------------------
--- Schema mylibrary
--- -----------------------------------------------------
+-- Criando banco dados
 CREATE SCHEMA IF NOT EXISTS `mylibrary` DEFAULT CHARACTER SET utf8 ;
+
+
+-- Selecionando o banco de dados que iremos utilizar
 USE `mylibrary` ;
 
--- -----------------------------------------------------
--- Table `mylibrary`.`author`
--- -----------------------------------------------------
+
+-- Criando a tabela "author"
 CREATE TABLE IF NOT EXISTS `mylibrary`.`author` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(250) NOT NULL,
@@ -29,9 +25,7 @@ CREATE TABLE IF NOT EXISTS `mylibrary`.`author` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `mylibrary`.`book`
--- -----------------------------------------------------
+-- Criando a tabela "book"
 CREATE TABLE IF NOT EXISTS `mylibrary`.`book` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(250) NOT NULL,
@@ -52,9 +46,7 @@ CREATE TABLE IF NOT EXISTS `mylibrary`.`book` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `mylibrary`.`loan`
--- -----------------------------------------------------
+-- Criando a tabela "loan"
 CREATE TABLE IF NOT EXISTS `mylibrary`.`loan` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `person` VARCHAR(250) NOT NULL,
@@ -71,9 +63,7 @@ CREATE TABLE IF NOT EXISTS `mylibrary`.`loan` (
 ENGINE = InnoDB;
 
 
--- -----------------------------------------------------
--- Table `mylibrary`.`wishlist`
--- -----------------------------------------------------
+-- Criando a tabela "wishlist"
 CREATE TABLE IF NOT EXISTS `mylibrary`.`wishlist` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(250) NOT NULL,
