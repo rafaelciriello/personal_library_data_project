@@ -1,20 +1,38 @@
-# Projeto de Biblioteca Pessoal: Engenharia de Dados
+# Projeto de Biblioteca Pessoal
 
-Este projeto visa demonstrar habilidades de engenharia de dados em todas as etapas, desde a modelagem até a interação com dados usando Python no Jupyter Notebook. O foco principal é a gestão de uma biblioteca pessoal.
+Bem-vindo ao projeto de Engenharia de Dados para Gestão de Biblioteca Pessoal. Este projeto visa demonstrar habilidades sólidas em Engenharia de Dados ao abordar algumas das fases mais importantes do ciclo de vida dos dados, desde a modelagem de um banco de dados, passando por um processo de ETL (extracao, transformacao e carregamento) até consultas e análises utilizando os dados armazenados.
+
 
 ## Fases do Projeto
 
 ### 1. Modelagem de Dados
 
-Nesta fase, foram criados diagramas de entidade-relacionamento (ERD) para visualizar a estrutura da biblioteca. As decisões de design foram tomadas para definir as tabelas e relacionamentos.
+Durante o desenvolvimento deste projeto, foram seguidas três fases essenciais de modelagem de dados:
 
-### 2. Criação do Banco de Dados
+##### Modelagem Conceitual
+Na etapa de modelagem conceitual, inicialmente concentrei-me em identificar os principais elementos-chave do projeto: livros, autores, empréstimos e lista de desejos. Defini cada um desses componentes como "entidades" e determinei suas conexões e interações.
 
-Utilizando scripts SQL, as tabelas foram criadas no banco de dados. Foram estabelecidas restrições, chaves estrangeiras e índices para garantir integridade e eficiência.
+#### Modelagem Lógica
+Com as entidades definidas, passei para a fase de modelagem lógica. Nesse ponto, detalhei a estrutura de cada entidade. Por exemplo, a entidade "book" foi enriquecida com atributos como título, ano de lancamento, número de páginas, genero, etc. As relações entre as entidades foram estabelecidas, com chaves primárias e estrangeiras definindo vínculos sólidos entre elas. Nesta etapa utilizei a ferramenta workbench para criar o diagrama.
 
-### 3. Inserção de Dados
+#### Modelagem Física
+A última etapa, a modelagem física, envolveu a implementação real do modelo no banco de dados atraves do MySQL. Aqui, traduzi as definições lógicas em comandos SQL concretos, exportando o diagrama criado na etapa anterior para gerar o scrip SQL. Cada tabela, como "Livro", "Autor", "Empréstimo" e "Lista de Desejos", foi criada com seus atributos específicos e as devidas restrições.
 
-Foram inseridos dados fictícios nas tabelas para simular a coleção de livros e autores. Isso preparou o banco para a próxima fase.
+
+### 2. ETL (Extracao, Transfomacao e Carregamento)
+
+Foram inseridos dados fictícios nas tabelas para simular a coleção de livros e autores de um determinado usuario. Isso preparou o banco para a próxima fase.
+
+#### Extracao
+
+
+#### Transformacao
+
+
+#### Carregamento
+
+
+
 
 ### 4. Manipulação de Dados com Python
 
