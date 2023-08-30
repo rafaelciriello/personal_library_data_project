@@ -1,0 +1,13 @@
+Modelo Lógico:
+Nesta etapa, detalhamos os atributos das entidades, identificamos as chaves primárias e estrangeiras e definimos as relações.
+
+Tabelas:
+
+Autor
+Atributos: Nome (PK), País de Origem, Data de Nascimento.
+Livro
+Atributos: Título (PK), Número de Páginas, Ano de Lançamento, Gênero, Localização na Biblioteca, Já Lido, Classificação, Autor (FK referenciando Autor).
+Empréstimo
+Atributos: Nome da Pessoa (PK), Data de Empréstimo, Data de Devolução, Livro Emprestado (FK referenciando Livro).
+Lista de Desejos
+Atributos: Título (PK), Autor, Ano de Lançamento, Comentários.

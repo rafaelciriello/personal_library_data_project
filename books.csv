@@ -1,0 +1,17 @@
+titulo,numero_paginas,ano_lancamento,genero,localizacao_biblioteca,ja_lido,classificacao,autor
+Dom Casmurro,280,1899,Romance,A1,true,4.5,Machado de Assis
+1984,328,1949,Ficção Científica,B2,false,5.0,George Orwell
+A Revolução dos Bichos,144,1945,Ficção,C3,true,4.2,George Orwell
+Cem Anos de Solidão,457,1967,Ficção,M1,false,4.8,Gabriel García Márquez
+O Grande Gatsby,180,1925,Romance,D5,true,4.6,F. Scott Fitzgerald
+O Hobbit,310,1937,Fantasia,B4,true,4.7,J.R.R. Tolkien
+O Senhor dos Anéis: A Sociedade do Anel,423,1954,Fantasia,B3,false,4.9,J.R.R. Tolkien
+O Apanhador no Campo de Centeio,224,1951,Romance,E2,false,4.3,J.D. Salinger
+Crime e Castigo,671,1866,Romance,F6,false,4.6,Fiodor Dostoievski
+Anna Karenina,864,1877,Romance,A7,true,4.8,Lev Tolstói
+O Pequeno Príncipe,93,1943,Fábula,F2,true,4.5,Antoine de Saint-Exupéry
+A Culpa é das Estrelas,288,2012,Romance,B1,false,4.2,John Green
+O Sol é para Todos,364,1960,Ficção,H3,false,4.7,Harper Lee
+Matar um Rouxinol,286,1960,Romance,G8,true,4.5,Harper Lee
+O Leão, a Feiticeira e o Guarda-Roupa,206,1950,Fantasia,C7,true,4.4,C.S. Lewis
+O Código Da Vinci,456,2003,Mistério,G1,false,4.1,Dan Brown
