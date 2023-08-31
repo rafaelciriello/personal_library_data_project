@@ -1,13 +1,23 @@
 Modelo Lógico:
-Nesta etapa, detalhamos os atributos das entidades, identificamos as chaves primárias e estrangeiras e definimos as relações.
+
+Nesta etapa, detalhamos os atributos das entidades, identificamos as chaves primárias e estrangeiras, definimos as relações e
+estabelecemos as restricoes. Esta etapa foi realizada na ferramenta workbench, gerando um diagrama que pode ser visualizado atraves
+do arquivo logical_model.png. Porem para facilitar o entendimento aqui esta descrito os detalhes de como cada tabela e seus atributos
+foram implemtados. 
 
 Tabelas:
 
-Autor
-Atributos: Nome (PK), País de Origem, Data de Nascimento.
-Livro
-Atributos: Título (PK), Número de Páginas, Ano de Lançamento, Gênero, Localização na Biblioteca, Já Lido, Classificação, Autor (FK referenciando Autor).
-Empréstimo
-Atributos: Nome da Pessoa (PK), Data de Empréstimo, Data de Devolução, Livro Emprestado (FK referenciando Livro).
-Lista de Desejos
-Atributos: Título (PK), Autor, Ano de Lançamento, Comentários.
+author
+atributos: id (pk, int, not null, autoincrement), name (varchar 250, not null), country (varchar 100, not null), birthday (data).
+
+book
+atributos: id (pk, int, not null, autoincrement), title (varchar 250, not null), year (int, not null), genre (varchar 100, not null), 
+pages (int, not null), location (varchar 45), read (tinyint, not null), rating (int), autor_id (fk referenciando author).
+
+loan
+atributos: id (pk, int, not null, autoincrement), name (varchar 250, not null), loan_date (date, not null), return_date (date), 
+book_id (fk referenciando Livro).
+
+wishlist
+atributos: id (pk, int, not null, autoincrement), title (varchar 250, not null), author (varchar 250, not null), year (year), 
+comments (varchar 250).

@@ -1,13 +1,18 @@
 Modelo Conceitual:
-Nesta etapa, iremos identificar as entidades, seus atributos e os relacionamentos entre elas.
+
+Nesta etapa, identifiquei as entidades, seus atributos e os relacionamentos mais adequados entre elas.
 
 Entidades e Atributos:
 
-Autor
-Atributos: Nome (atributo chave), País de Origem, Data de Nascimento.
-Livro
-Atributos: Título (atributo chave), Número de Páginas, Ano de Lançamento, Gênero, Localização na Biblioteca, Já Lido (booleano), Classificação (1 a 5), Autor (chave estrangeira referenciando a entidade Autor).
-Empréstimo
-Atributos: Nome da Pessoa (atributo chave), Data de Empréstimo, Data de Devolução, Livro Emprestado (chave estrangeira referenciando a entidade Livro).
-Lista de Desejos
-Atributos: Título (atributo chave), Autor, Ano de Lançamento, Comentários.
+author
+atributos: nome, país de origem, data de nascimento.
+
+book
+atributos: título, número de páginas, ano de lançamento, gênero, localização na biblioteca, já Lido (booleano), 
+classificação (1 a 5), id autor.
+
+loan
+Atributos: nome da pessoa, data de empréstimo, data de devolução.
+
+washlist
+Atributos: título, autor, ano de lançamento, comentários.
