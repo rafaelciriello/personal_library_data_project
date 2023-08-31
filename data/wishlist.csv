@@ -1,11 +1,11 @@
-titulo,nome_autor,sobrenome_autor,lancamento,comentarios
-A Casa dos Espíritos, Isabel, Allende, 1982, O realismo mágico desta obra me atrai
-A Menina que Roubava Livros, Markus, Zusak, 2005, Segunda Guerra Mundial desperta minha curiosidade
-A Sangue Frio, Truman, Capote, 1966, Gosto de livros baseados em eventos reai
-A Sombra do Vento, Carlos Ruiz, Zafón, 2001, A premissa de uma livraria misteriosa me interessam
-As Crônicas de Nárnia, C.S., Lewis, 1950, Este é o início de uma série clássica de fantasia
-O Estrangeiro, Albert, Camus, 1942, Gosto de obras filosóficas
-Laranja Mecânica, Anthony, Burgess, 1962, A abordagem da violência e controle social
-Admirável Mundo Novo, Aldous, Huxley, 1932, A crítica à sociedade de consumo e o uso da tecnologia
-Os Miseráveis, Victor, Hugo, 1862, Clássico da literatura francesa
-O Som e a Fúria, William, Faulkner, 1929, A estrutura narrativa complexa e a análise psicológica
+titulo,nome_autor,sobrenome_autor,lancamento,comentarios,capa_livro
+A Casa dos Espíritos, Isabel, Allende, 1982, O realismo mágico desta obra me atrai,
+A Menina que Roubava Livros, Markus, Zusak, 2005, Segunda Guerra Mundial desperta minha curiosidade, convencional
+A Sangue Frio, Truman, Capote, 1966, Gosto de livros baseados em eventos reai, qualquer uma
+A Sombra do Vento, Carlos Ruiz, Zafón, 2001, A premissa de uma livraria misteriosa me interessam, dura
+As Crônicas de Nárnia, C.S., Lewis, 1950, Este é o início de uma série clássica de fantasia,
+O Estrangeiro, Albert, Camus, 1942, Gosto de obras filosóficas, -
+Laranja Mecânica, Anthony, Burgess, 1962, A abordagem da violência e controle social, amarela com flores
+Admirável Mundo Novo, Aldous, Huxley, 1932, A crítica à sociedade de consumo e o uso da tecnologia, nao importa
+Os Miseráveis, Victor, Hugo, 1862, Clássico da literatura francesa, 
+O Som e a Fúria, William, Faulkner, 1929, A estrutura narrativa complexa e a análise psicológica,

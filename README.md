@@ -27,7 +27,9 @@ A última etapa, a modelagem física, envolveu a implementação real do modelo 
 
 ### 2. ETL (Extracao, Transfomacao e Carregamento)
 
-Foram inseridos dados fictícios nas tabelas para simular a coleção de livros e autores de um determinado usuario. Isso preparou o banco para a próxima fase.
+A fonte de dados para este projeto consite em tres arquivos no formato cvs, armazenados localmente em nossa maquina. O primeiro deles denominado books possui informacoes sobre os livros e seus respectivos autores, dele vamos extrair informacoes para alimentar duas de nossas tabelas no banco de dados a tabela book e a tabela author. O segundo aquivo denominado loans contem uma lista das pessoas que pegaram livros emprestados e suas data de retirada e devolucao caso ja tenha ocorrido. E o terceiro arquivo chamado wishlist contem uma lista de livros que desejamos adquirir no futuro, com informacoes sobre autor e data de lancamento.
+
+Todas os tres arquivos precisaram passar por uma fase de limpeza e transformacao, considerando que existem dados invalidos, desnecessarios e em formatos diversos dos que precisaremos para alimentar nosso banco de dados modelado anteriormente.
 
 
 #### Extracao
