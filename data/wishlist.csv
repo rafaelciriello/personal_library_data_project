@@ -1,11 +1,11 @@
-titulo,autor,ano_lancamento,comentarios
-A Casa dos Espíritos, Isabel Allende, 1982, O realismo mágico desta obra me atrai, além de sua abordagem histórica e social
-A Menina que Roubava Livros, Markus Zusak, 2005, Esta história contada pela Morte durante a Segunda Guerra Mundial desperta minha curiosidade
-A Sangue Frio, Truman Capote, 1966, Gosto de livros baseados em eventos reais, e este trata de um crime chocante
-A Sombra do Vento, Carlos Ruiz Zafón, 2001, A premissa de uma livraria misteriosa e a Barcelona pós-guerra me interessam
-As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa, C.S. Lewis, 1950, Este é o início de uma série clássica de fantasia que ainda não tive a oportunidade de ler
-O Estrangeiro, Albert Camus, 1942, Gosto de obras filosóficas e existenciais, e esta é considerada uma das melhores
-Laranja Mecânica, Anthony Burgess, 1962, A abordagem da violência e controle social nesta distopia é intrigante
-Admirável Mundo Novo, Aldous Huxley, 1932, A crítica à sociedade de consumo e o uso da tecnologia são temas que quero explorar
-Os Miseráveis, Victor Hugo, 1862, Este clássico da literatura francesa e sua abordagem sobre justiça social me interessam
-O Som e a Fúria, William Faulkner, 1929, A estrutura narrativa complexa e a análise psicológica dos personagens são atrativos
+titulo,nome_autor,sobrenome_autor,lancamento,comentarios
+A Casa dos Espíritos, Isabel, Allende, 1982, O realismo mágico desta obra me atrai
+A Menina que Roubava Livros, Markus, Zusak, 2005, Segunda Guerra Mundial desperta minha curiosidade
+A Sangue Frio, Truman, Capote, 1966, Gosto de livros baseados em eventos reai
+A Sombra do Vento, Carlos Ruiz, Zafón, 2001, A premissa de uma livraria misteriosa me interessam
+As Crônicas de Nárnia, C.S., Lewis, 1950, Este é o início de uma série clássica de fantasia
+O Estrangeiro, Albert, Camus, 1942, Gosto de obras filosóficas
+Laranja Mecânica, Anthony, Burgess, 1962, A abordagem da violência e controle social
+Admirável Mundo Novo, Aldous, Huxley, 1932, A crítica à sociedade de consumo e o uso da tecnologia
+Os Miseráveis, Victor, Hugo, 1862, Clássico da literatura francesa
+O Som e a Fúria, William, Faulkner, 1929, A estrutura narrativa complexa e a análise psicológica
