@@ -1,0 +1,29 @@
+title,year,genre,pages,location,read,rating
+Dom Casmurro,1899.0,Romance,280.0,E,False,
+1984,1949.0,Ficção,328.0,F,True,2
+A Revolução dos Bichos,1945.0,Ficção,144.0,C,True,4
+O Grande Gatsby,1925.0,Romance,180.0,D,False,
+O Hobbit,1937.0,Fantasia,310.0,E,True,3
+O Apanhador no Campo de Centeio,1951.0,Romance,224.0,A,True,4
+Crime e Castigo,1866.0,Romance,671.0,F,True,2
+Anna Karenina,1877.0,Romance,864.0,B,True,4
+O Pequeno Príncipe,1943.0,Fábula,93.0,D,True,3
+O Leão a Feiticeira e o Guarda-Roupa,1950.0,Fantasia,206.0,A,True,5
+O Processo,1925.0,Romance,266.0,E,True,1
+A Revolta de Atlas,1957.0,Ficção,1088.0,C,False,
+O Conde de Monte Cristo,1844.0,Aventura,1310.0,E,True,2
+A Montanha Mágica,1924.0,Romance,912.0,B,True,5
+O Retrato de Dorian Gray,1890.0,Romance,254.0,F,False,
+Grande Sertão: Veredas,1956.0,Romance,616.0,E,True,1
+A Estrada,2006.0,Ficção,239.0,F,True,4
+Um Conto de Duas Cidades,1859.0,Romance,432.0,C,True,2
+O Nome da Rosa,1980.0,Mistério,504.0,B,True,3
+Romeu e Julieta,1597.0,Tragédia,336.0,F,True,2
+Fahrenheit 451,1953.0,Ficção,208.0,E,True,4
+Cem Anos de Solidão,1967.0,Ficção,457.0,M,True,5
+O Sol é para Todos,1960.0,Ficção,364.0,D,True,3
+Matar um Rouxinol,1960.0,Romance,286.0,E,True,4
+A Metamorfose,1915.0,Ficção,55.0,B,True,1
+O Senhor dos Anéis: A Sociedade do Anel,1954.0,Fantasia,423.0,C,True,5
+A Culpa é das Estrelas,2012.0,Romance,288.0,D,True,2
+O Código Da Vinci,2003.0,Mistério,456.0,G,True,1
